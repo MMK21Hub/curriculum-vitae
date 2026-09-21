@@ -51,6 +51,16 @@
 - Achieved grades A in Computer Science, A in Mathematics, and A in Physics
 - Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
 
+#edu(
+  institution: "Loughborough University",
+  location: "Loughborough, Leicestershire, UK",
+  dates: dates-helper(start-date: "Sept 2025", end-date: "June 2029"),
+  degree: "Computer Science BSc",
+  consistent: true,
+)
+
+- On track for a First Class Honours degree (78.9% first year mark)
+
 == Experience
 
 #work(
@@ -59,9 +69,19 @@
   company: "Stardance Challenge, Hack Club",
   dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
 )
-- Managed the volunteer support team for Hack Club's flagship online events, scaling infrastructure and the team from 12,000 participants to 60,000 participants
+- Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from 12,000 participants to 60,000 participants
 - Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club (across 18 different programs)
 - Integrated Slack and Email support statistics onto a single dashboard using Grafana and custom Prometheus scrapers
+
+#work(
+  title: "Wellbeing Course Facilitator",
+  location: "Loughborough",
+  company: "Hashtag Me",
+  dates: dates-helper(start-date: "Oct 2025", end-date: "Jan 2026"),
+)
+
+- Volunteer co-facilitator of a 12-week peer-support program
+- Ran regular meetings to help fellow students with resilience and confidence, providing a safe space to discuss mental health and academic issues
 
 == Projects
 
@@ -84,4 +104,14 @@
 )
 
 - Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
-- Easy to deploy as a sidecar Docker container and fully configurable with a single YAML file
+- Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
+
+== Activities
+
+#extracurriculars(
+  activity: "UK 2026 Cyber Leaders Challenge",
+  dates: dates-helper(start-date: "Jan 2026", end-date: "March 2026"),
+)
+
+- A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
+- Took part in the National Finals (consisting of the top 17 teams)
