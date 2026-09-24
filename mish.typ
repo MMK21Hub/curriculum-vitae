@@ -4,7 +4,7 @@
 #let name = "Mish Rodic"
 #let location = "Loughborough"
 #let email = "mish@rodic.co.uk"
-#let github = "GitHub.com/MMK21Hub"
+#let github = "github.com/MMK21Hub"
 // #let linkedin = "linkedin.com/in/"
 // #let phone = "+44"
 #let personal-site = "mish.slevel.xyz"
@@ -69,9 +69,10 @@
   company: "Stardance Challenge, Hack Club",
   dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
 )
-- Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from 12,000 participants to 60,000 participants
-- Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club (across 18 different programs)
-- Integrated Slack and Email support statistics onto a single dashboard using Grafana and custom Prometheus scrapers
+- Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from a 12,000-participant event to 60,000 participants
+- Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
+- Brought Slack and Email support statistics onto a single dashboard using Grafana and custom Prometheus scrapers, making the full backlog visible to the team for the first time
+- Motivated volunteers: ran lock-in sessions, distributed stickers, and offered prizes to keep morale high
 
 #work(
   title: "Wellbeing Course Facilitator",
@@ -84,6 +85,24 @@
 - Ran regular meetings to help fellow students with resilience and confidence, providing a safe space to discuss mental health and academic issues
 
 == Projects
+
+#project(
+  name: "Nephthys",
+  dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
+  role: "Maintainer",
+  url: "nephthys.hackclub.com",
+)
+
+// Flavortown stats: Total: 11503 tickets, 1999 unique users
+// As of 24 Sept 2026, 15,610 total SD tickets
+// As of 24 Sept 2026, 1,999 flavortown + 3,739 stardance = 5,738 total users → 5,269 unique
+// Piccolo migration: 4125 LoC (8b19b30)
+
+- Maintained the Slack support bot for Hack Club's largest events, handling 30,000+ support tickets from 5,000 people
+- Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
+- Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
+- Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
+// AI features?
 
 #project(
   name: "Capitalisation Fixes",
