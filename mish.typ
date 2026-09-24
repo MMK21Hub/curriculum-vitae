@@ -42,16 +42,6 @@
 == Education
 
 #edu(
-  institution: "Howard of Effingham Sixth Form",
-  location: "Effingham, Surrey, UK",
-  dates: dates-helper(start-date: "Sept 2023", end-date: "June 2025"),
-  degree: "A-levels",
-  consistent: true,
-)
-- Achieved grades A in Computer Science, A in Mathematics, and A in Physics
-- Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
-
-#edu(
   institution: "Loughborough University",
   location: "Loughborough, Leicestershire, UK",
   dates: dates-helper(start-date: "Sept 2025", end-date: "June 2029"),
@@ -60,6 +50,16 @@
 )
 
 - On track for a First Class Honours degree (78.9% first year mark)
+
+#edu(
+  institution: "Howard of Effingham Sixth Form",
+  location: "Effingham, Surrey, UK",
+  dates: dates-helper(start-date: "Sept 2023", end-date: "June 2025"),
+  degree: "A-levels",
+  consistent: true,
+)
+- Achieved grades A in Computer Science, A in Mathematics, and A in Physics
+- Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
 
 == Experience
 
