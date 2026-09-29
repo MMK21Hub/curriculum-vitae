@@ -49,7 +49,7 @@
   consistent: true,
 )
 
-- On track for a First Class Honours degree (78.9% first year mark)
+- On track for a First Class Honours degree in Computer Science (78.9% first year mark)
 
 #edu(
   institution: "Howard of Effingham Sixth Form",
