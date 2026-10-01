@@ -19,7 +19,7 @@
   github: github,
   // linkedin: linkedin,
   // phone: phone,
-  personal-site: personal-site,
+  // personal-site: personal-site,
   accent-color: "#065763",
   font: "New Computer Modern",
   paper: "a4",
@@ -39,13 +39,19 @@
  * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
  * #generic-one-by-two(left: "", right: "")
  */
+
+== Skills
+
+- *Programming*: Python, JavaScript/TypeScript, building REST APIs (FastAPI), HTML/CSS, PostgreSQL
+- *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
+
 == Education
 
 #edu(
   institution: "Loughborough University",
   location: "Loughborough, Leicestershire, UK",
   dates: dates-helper(start-date: "Sept 2025", end-date: "June 2029"),
-  degree: "Computer Science BSc",
+  degree: "Computer Science BSc (with industry placement year)",
   consistent: true,
 )
 
@@ -83,6 +89,8 @@
 
 - Volunteer co-facilitator of a 12-week peer-support program
 - Ran regular meetings to help fellow students with resilience and confidence, providing a safe space to discuss mental health and academic issues
+// Short version:
+// - Co-facilitated peer-support sessions as part of a 12-week student-led wellbeing program
 
 == Projects
 
@@ -102,7 +110,8 @@
 - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
-// AI features?
+// - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
+// More AI?
 
 #project(
   name: "Capitalisation Fixes",
