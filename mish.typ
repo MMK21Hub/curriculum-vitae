@@ -1,6 +1,7 @@
+// Thanks Stephen Xu for making the template :)
 #import "@preview/basic-resume:0.2.9": *
 
-// Put your personal information here, replacing mine
+// Personal information!
 #let name = "Mish Rodic"
 #let location = "Loughborough, UK"
 #let email = "mish@rodic.co.uk"
@@ -9,11 +10,9 @@
 // #let phone = "+44"
 #let personal-site = "mish.slevel.xyz"
 
+// Heading!
 #show: resume.with(
   author: name,
-  // All the lines below are optional.
-  // For example, if you want to to hide your phone number:
-  // feel free to comment those lines out and they will not show.
   location: location,
   email: email,
   github: github,
@@ -42,8 +41,9 @@
 
 == Skills
 
-- *Programming*: Python, JavaScript/TypeScript, building REST APIs (FastAPI), HTML/CSS, PostgreSQL
+- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, PostgreSQL, Rust, Docker
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
+- *Operations support*: building, troubleshooting and upgrading computers, deploying homelab networking, Linux system administration
 
 == Education
 
@@ -55,6 +55,7 @@
   consistent: true,
 )
 - On track for a First Class Honours degree in Computer Science (78.9% first year mark)
+// - Available for a placement year beginning July--September 2027
 
 #edu(
   institution: "Howard of Effingham Sixth Form",
@@ -85,10 +86,9 @@
   company: "Hashtag Me",
   dates: dates-helper(start-date: "Oct 2025", end-date: "Jan 2026"),
 )
-- Volunteer co-facilitator of a 12-week peer-support program
-- Ran regular meetings to help fellow students with resilience and confidence, providing a safe space to discuss mental health and academic issues
-// Short version:
-// - Co-facilitated peer-support sessions as part of a 12-week student-led wellbeing program
+- Co-facilitated peer-support sessions as part of a 12-week student-led wellbeing program
+// - Volunteer co-facilitator of a 12-week peer-support program
+// - Ran regular meetings to help fellow students with resilience and confidence, providing a safe space to discuss mental health and academic issues
 
 == Projects
 
@@ -106,8 +106,18 @@
 - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
+// - Added observability features, improved configuration validation and handling of API errors
+// - Implemented a secure API (OAuth2, HMAC, API keys), allowing other programs to access tickets
 // - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 // More AI?
+
+#project(
+  name: "Rusty-Man Computer",
+  dates: dates-helper(start-date: "Feb 2025", end-date: "Jan 2026"),
+  role: "Creator",
+  url: "github.com/RandomSearch18/rusty_man_computer",
+)
+- Little-Man Computer (educational instruction set) emulator and assembler toolchain written in Rust
 
 #project(
   name: "Capitalisation Fixes",
@@ -118,6 +128,24 @@
 - Created a Node.js tool that fixes capitalisation and grammar issues in _Minecraft_
 - Supported a range of _Minecraft_ versions simultaneously using a "transformer" system to declaratively modify strings
 - Published to Modrinth (#link("modrinth.com/resourcepack/capitalisation-fixes")) with 5,000 downloads
+
+// #project(
+//   name: "Core Watcher",
+//   dates: dates-helper(start-date: "Aug 2025", end-date: "Aug 2025"),
+//   role: "Developed and deployed",
+//   url: "github.com/MMK21Hub/core-watcher",
+// )
+// - Custom Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
+
+// #project(
+//   name: "Marvellous Mapping Machine",
+//   dates: dates-helper(start-date: "Nov 2024", end-date: "July 2025"),
+//   // role: "Creator",
+//   url: "github.com/RandomSearch18/marvellous-mapping-machine",
+// )
+
+// - Pedestrian navigation web app that uses WebAssembly to embed my custom Python routing engine
+// - Uses OpenStreetMap APIs for map data, visuals, and address geocoding
 
 #project(
   name: "Slime Hook",
