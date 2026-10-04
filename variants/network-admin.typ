@@ -46,7 +46,7 @@
   consistent: true,
 )
 - Achieved grades A in Computer Science, A in Mathematics, and A in Physics
-// - Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
+- Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
 
 == Projects
 
