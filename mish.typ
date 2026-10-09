@@ -1,10 +1,8 @@
 // Thanks Stephen Xu for making the template :)
 #import "@preview/basic-resume:0.2.9": *
+#import "pii.typ": *
 
 // Personal information!
-#let name = "Mish Rodic"
-#let location = "Loughborough, UK"
-#let email = "mish@rodic.co.uk"
 #let github = "github.com/MMK21Hub"
 // #let linkedin = "linkedin.com/in/"
 // #let phone = "+44"
@@ -12,9 +10,9 @@
 
 // Heading!
 #show: resume.with(
-  author: name,
-  location: location,
-  email: email,
+  author: pii.full_full_name,
+  location: pii.location,
+  email: pii.email,
   github: github,
   // linkedin: linkedin,
   // phone: phone,
