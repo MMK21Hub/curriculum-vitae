@@ -104,7 +104,7 @@
 - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
-// - Added observability features, improved configuration validation and handling of API errors
+- Added observability features, improved configuration validation and handling of API errors
 // - Implemented a secure API (OAuth2, HMAC, API keys), allowing other programs to access tickets
 // - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 // More AI?
