@@ -43,7 +43,7 @@
 
 - *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, PostgreSQL, Rust, Docker
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
-- *Operations support*: building, troubleshooting and upgrading computers, deploying homelab networking, Linux system administration
+- *Tools*: Git, GitHub, Linux, Windows, VS Code, Microsoft Office, LLMs
 
 == Education
 
@@ -65,7 +65,7 @@
   consistent: true,
 )
 - Achieved grades A in Computer Science, A in Mathematics, and A in Physics
-- Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
+// - Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
 
 == Experience
 
@@ -103,12 +103,12 @@
 // As of 24 Sept 2026, 1,999 flavortown + 3,739 stardance = 5,738 total users → 5,269 unique
 // Piccolo migration: 4125 LoC (8b19b30)
 - Maintained the Slack support bot for Hack Club's largest events, handling 30,000+ support tickets from 5,000 people
-- Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
+// - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
+- Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
 // - Added observability features, improved configuration validation and handling of API errors
 // - Implemented a secure API (OAuth2, HMAC, API keys), allowing other programs to access tickets
-// - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 // More AI?
 
 #project(
@@ -137,24 +137,24 @@
 // )
 // - Custom Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
 
-// #project(
-//   name: "Marvellous Mapping Machine",
-//   dates: dates-helper(start-date: "Nov 2024", end-date: "July 2025"),
-//   // role: "Creator",
-//   url: "github.com/RandomSearch18/marvellous-mapping-machine",
-// )
-
-// - Pedestrian navigation web app that uses WebAssembly to embed my custom Python routing engine
-// - Uses OpenStreetMap APIs for map data, visuals, and address geocoding
-
 #project(
-  name: "Slime Hook",
-  dates: dates-helper(start-date: "June 2024", end-date: "Nov 2024"),
-  role: "Creator",
-  url: "github.com/MMK21Hub/slime-hook",
+  name: "Marvellous Mapping Machine",
+  dates: dates-helper(start-date: "Nov 2024", end-date: "July 2025"),
+  // role: "Creator",
+  url: "github.com/RandomSearch18/marvellous-mapping-machine",
 )
-- Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
-- Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
+
+- Pedestrian navigation web app that uses WebAssembly to embed my custom Python routing engine
+- Uses OpenStreetMap APIs for map data, visuals, and address geocoding
+
+// #project(
+//   name: "Slime Hook",
+//   dates: dates-helper(start-date: "June 2024", end-date: "Nov 2024"),
+//   role: "Creator",
+//   url: "github.com/MMK21Hub/slime-hook",
+// )
+// - Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
+// - Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
 
 == Activities
 
@@ -164,3 +164,9 @@
 )
 - A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
 - Took part in the National Finals (consisting of the top 17 teams)
+
+#extracurriculars(
+  activity: "RAF Air Cadets",
+  dates: dates-helper(start-date: "Sept 2022", end-date: "Sept 2025"),
+)
+- As a Corporal, ensured safety of cadets and the public during helicopter displays at Capel Military Show
