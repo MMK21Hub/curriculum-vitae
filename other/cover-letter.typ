@@ -20,8 +20,7 @@
     greeting: [Dear Hiring Manager,],
   ),
   closing: (
-    // salutation: "Yours faithfully,",
-    salutation: "Yours sincerely,",
+    salutation: "Yours faithfully,",
+    // salutation: "Yours sincerely,",
   ),
 )
-
