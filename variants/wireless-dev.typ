@@ -4,8 +4,6 @@
 
 // Personal information!
 #let github = "github.com/MMK21Hub"
-// #let linkedin = "linkedin.com/in/"
-// #let phone = "+44"
 #let personal-site = "mish.slevel.xyz"
 
 // Heading!
@@ -24,23 +22,13 @@
   personal-info-position: left,
 )
 
-/*
- * Lines that start with == are formatted into section headings
- * You can use the specific formatting functions if needed
- * The following formatting functions are listed below
- * #edu(dates: "", degree: "", gpa: "", institution: "", location: "")
- * #work(company: "", dates: "", location: "", title: "")
- * #project(dates: "", name: "", role: "", url: "")
- * #extracurriculars(activity: "", dates: "")
- * There are also the following generic functions that don't apply any formatting
- * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
- * #generic-one-by-two(left: "", right: "")
- */
 
 == Skills
 
-- *Programming*: Object-oriented programming, Python, JavaScript/TypeScript, SQL, Rust
-- *Tools*: Git, GitHub, Docker, CI/CD, LLMs, Linux
+- *Programming*: OOP, Python, JavaScript/TypeScript, SQL, Rust, system testing
+- *Tools*: Linux, Wireshark, LLMs, Git, GitHub, Docker, CI/CD
+- *Wireless*: Good understanding of Wi-Fi, Bluetooth, SDR receivers
+- *Observability*: Prometheus, Grafana, Loki, OpenTelemetry
 
 == Education
 
@@ -51,7 +39,9 @@
   degree: "Computer Science BSc (with industry placement year)",
   consistent: true,
 )
-- On track for a First Class Honours degree in Computer Science (78.9% first year mark)
+- On track for a First Class Honours degree in Computer Science (79% first year mark)
+- Achieved 79% in Object Oriented Programming, by developing a stock management system in Java
+- Highlighted module: Operating Systems, Networks and Security (including IP, TCP/UDP, TLS, IPsec)
 // - Available for a placement year beginning July--September 2027
 
 #edu(
@@ -73,7 +63,7 @@
   dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
 )
 - Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from a 12,000-participant event to 60,000 participants
-- Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
+// - Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
 - Brought Slack and Email support statistics onto a single dashboard using Grafana and custom Prometheus scrapers, making the full backlog visible to the team for the first time
 - Motivated volunteers: ran lock-in sessions, distributed stickers, and offered prizes to keep morale high
 
@@ -103,10 +93,18 @@
 - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
-- Added observability features, improved configuration validation and handling of API errors
+// - Added observability features, improved configuration validation and handling of API errors
 // - Implemented a secure API (OAuth2, HMAC, API keys), allowing other programs to access tickets
-// - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
+- Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 // More AI?
+
+#project(
+  name: "Core Watcher",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Aug 2025"),
+  role: "Developed and deployed",
+  url: "github.com/MMK21Hub/core-watcher",
+)
+- Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
 
 #project(
   name: "Rusty-Man Computer",
@@ -114,44 +112,17 @@
   role: "Creator",
   url: "github.com/RandomSearch18/rusty_man_computer",
 )
-- Little-Man Computer (educational instruction set) emulator and assembler toolchain written in Rust
+- Little-Man Computer (educational instruction set) emulator and assembler toolset written in Rust
+- Implemented CI pipeline with cross-compilation, and unit and integration tests
 
 #project(
-  name: "Capitalisation Fixes",
-  dates: dates-helper(start-date: "May 2020", end-date: "Sept 2025"),
-  role: "Creator",
-  url: "github.com/MMK21Hub/Capitalisation-Fixes",
+  name: "ESP32 Bluetooth proxy setup",
+  dates: dates-helper(start-date: "May 2023", end-date: "Present"),
 )
-- Created a Node.js tool that fixes capitalisation and grammar issues in _Minecraft_
-- Supported a range of _Minecraft_ versions simultaneously using a "transformer" system to declaratively modify strings
-- Published to Modrinth (#link("modrinth.com/resourcepack/capitalisation-fixes")) with 5,000 downloads
 
-// #project(
-//   name: "Core Watcher",
-//   dates: dates-helper(start-date: "Aug 2025", end-date: "Aug 2025"),
-//   role: "Developed and deployed",
-//   url: "github.com/MMK21Hub/core-watcher",
-// )
-// - Custom Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
+- Deployed ESP32 microcontrollers as Bluetooth proxies: BLE packets are forwarded over Wi-Fi to Home Assistant to drive home automations
+- Used ESPHome to configure and flash the firmware
 
-// #project(
-//   name: "Marvellous Mapping Machine",
-//   dates: dates-helper(start-date: "Nov 2024", end-date: "July 2025"),
-//   // role: "Creator",
-//   url: "github.com/RandomSearch18/marvellous-mapping-machine",
-// )
-
-// - Pedestrian navigation web app that uses WebAssembly to embed my custom Python routing engine
-// - Uses OpenStreetMap APIs for map data, visuals, and address geocoding
-
-#project(
-  name: "Slime Hook",
-  dates: dates-helper(start-date: "June 2024", end-date: "Nov 2024"),
-  role: "Creator",
-  url: "github.com/MMK21Hub/slime-hook",
-)
-- Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
-- Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
 
 == Activities
 
@@ -159,5 +130,6 @@
   activity: "UK 2026 Cyber Leaders Challenge",
   dates: dates-helper(start-date: "Jan 2026", end-date: "March 2026"),
 )
-- A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
+- A multidisciplinary competition, responding to a mock national infrastructure cyberattack
+- Briefed officials on our findings and recommendations, providing clear written and verbal advice under pressure
 - Took part in the National Finals (consisting of the top 17 teams)
