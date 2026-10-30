@@ -4,8 +4,6 @@
 
 // Personal information!
 #let github = "github.com/MMK21Hub"
-// #let linkedin = "linkedin.com/in/"
-// #let phone = "+44"
 #let personal-site = "mish.slevel.xyz"
 
 // Heading!
@@ -14,9 +12,6 @@
   location: pii.location,
   email: pii.email,
   github: github,
-  // linkedin: linkedin,
-  // phone: phone,
-  // personal-site: personal-site,
   accent-color: "#065763",
   font: "New Computer Modern",
   paper: "a4",
@@ -24,24 +19,11 @@
   personal-info-position: left,
 )
 
-/*
- * Lines that start with == are formatted into section headings
- * You can use the specific formatting functions if needed
- * The following formatting functions are listed below
- * #edu(dates: "", degree: "", gpa: "", institution: "", location: "")
- * #work(company: "", dates: "", location: "", title: "")
- * #project(dates: "", name: "", role: "", url: "")
- * #extracurriculars(activity: "", dates: "")
- * There are also the following generic functions that don't apply any formatting
- * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
- * #generic-one-by-two(left: "", right: "")
- */
-
 == Skills
 
-- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, PostgreSQL, Rust, Docker
+- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, PostgreSQL, Rust
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
-- *Operations support*: building, troubleshooting and upgrading computers, deploying homelab networking, Linux system administration
+- *Tools*: Linux, Git, GitHub, Microsoft 365, Wireshark, LLMs
 
 == Education
 
@@ -49,7 +31,7 @@
   institution: "Loughborough University",
   location: "Loughborough, Leicestershire, UK",
   dates: dates-helper(start-date: "Sept 2025", end-date: "June 2029"),
-  degree: "Computer Science BSc (with industry placement year)",
+  degree: "Computer Science BSc (with industrial placement year)",
   consistent: true,
 )
 - On track for a First Class Honours degree in Computer Science (78.9% first year mark)
@@ -104,7 +86,7 @@
 - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
-- Added observability features, improved configuration validation and handling of API errors
+// - Added observability features, improved configuration validation and handling of API errors
 // - Implemented a secure API (OAuth2, HMAC, API keys), allowing other programs to access tickets
 // - Integrated an AI decision model (Jev) to categorise tickets, allowing us to quickly flag new issues
 // More AI?
@@ -127,13 +109,13 @@
 - Supported a range of _Minecraft_ versions simultaneously using a "transformer" system to declaratively modify strings
 - Published to Modrinth (#link("modrinth.com/resourcepack/capitalisation-fixes")) with 5,000 downloads
 
-// #project(
-//   name: "Core Watcher",
-//   dates: dates-helper(start-date: "Aug 2025", end-date: "Aug 2025"),
-//   role: "Developed and deployed",
-//   url: "github.com/MMK21Hub/core-watcher",
-// )
-// - Custom Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
+#project(
+  name: "Core Watcher",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Aug 2025"),
+  role: "Developed and deployed",
+  url: "github.com/MMK21Hub/core-watcher",
+)
+- Prometheus exporter for system metrics (CPU, RAM, network bandwidth/errors, temperatures) written in Rust
 
 // #project(
 //   name: "Marvellous Mapping Machine",
@@ -145,14 +127,14 @@
 // - Pedestrian navigation web app that uses WebAssembly to embed my custom Python routing engine
 // - Uses OpenStreetMap APIs for map data, visuals, and address geocoding
 
-#project(
-  name: "Slime Hook",
-  dates: dates-helper(start-date: "June 2024", end-date: "Nov 2024"),
-  role: "Creator",
-  url: "github.com/MMK21Hub/slime-hook",
-)
-- Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
-- Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
+// #project(
+//   name: "Slime Hook",
+//   dates: dates-helper(start-date: "June 2024", end-date: "Nov 2024"),
+//   role: "Creator",
+//   url: "github.com/MMK21Hub/slime-hook",
+// )
+// - Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
+// - Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
 
 == Activities
 
@@ -162,3 +144,10 @@
 )
 - A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
 - Took part in the National Finals (consisting of the top 17 teams)
+
+#extracurriculars(
+  activity: "Hackathons",
+)
+
+- Participated in Counterspell London (2024), Scrapyard London (2025), Hacktoberfest Hack Day Loughborough (2026)
+- Helped run Scrapyard London (2026), assisting with safeguarding and providing coding and GitHub mentoring
