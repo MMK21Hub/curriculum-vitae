@@ -1,0 +1,3 @@
+[submodule "other/cover-letters"]
+	path = other/cover-letters
+	url = git@github.com:MMK21Hub/cover-letters.git
