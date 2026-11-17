@@ -164,4 +164,4 @@
   activity: "Hackathons",
 )
 
-- Helped run Campfire London and Haven London (2026), assisted with safeguarding, coding and GitHub mentoring
+- Helped run Campfire London and Haven London (2026): assisted with safeguarding, coding and GitHub mentoring
