@@ -21,9 +21,9 @@
 
 == Skills
 
-- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, PostgreSQL, Rust
+- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, SQL (PostgreSQL), Rust
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
-- *Tools*: Linux, Git, GitHub, Microsoft 365, Wireshark, LLMs
+- *Tools*: Linux, Git, GitHub, Microsoft 365, Wireshark, LLM assistance (Command Code, Amp)
 
 == Education
 
@@ -57,7 +57,7 @@
 )
 - Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from a 12,000-participant event to 60,000 participants
 - Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
-- Brought Slack and Email support statistics onto a single dashboard using Grafana and custom Prometheus scrapers, making the full backlog visible to the team for the first time
+- Brought Slack and email support statistics onto a single dashboard, using Grafana and custom Prometheus scrapers, making the full backlog visible to the team for the first time
 - Motivated volunteers: ran lock-in sessions, distributed stickers, and offered prizes to keep morale high
 
 #work(
@@ -98,6 +98,7 @@
   url: "github.com/RandomSearch18/rusty_man_computer",
 )
 - Little-Man Computer (educational instruction set) emulator and assembler toolchain written in Rust
+- Implemented CI pipeline with cross-compilation, and unit and integration tests
 
 #project(
   name: "Capitalisation Fixes",
@@ -136,6 +137,14 @@
 // - Enhanced the multiplayer _Terraria_ experience with a tool that forwards in-game chat messages to a Discord channel
 // - Easy to deploy as a sidecar Docker container and fully configurable with a YAML file
 
+// #project(
+//   name: "Airport ETA Calculator",
+//   role: "Creator",
+//   url: "skp-airport-eta.netlify.app",
+//   dates: dates-helper(start-date: "July 2022", end-date: "Apr 2023"),
+// )
+// - Offline-first PWA for calculating airport queue lengths, usable on a phone with no signal
+
 == Activities
 
 #extracurriculars(
@@ -143,6 +152,7 @@
   dates: dates-helper(start-date: "Jan 2026", end-date: "March 2026"),
 )
 - A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
+// - Analysed a simulated national infrastructure cyberattack and briefed government officials on our findings
 - Took part in the National Finals (consisting of the top 17 teams)
 
 #extracurriculars(
@@ -150,4 +160,5 @@
 )
 
 - Participated in Counterspell London (2024), Scrapyard London (2025), Hacktoberfest Hack Day Loughborough (2026)
-- Helped run Scrapyard London (2026), assisting with safeguarding and providing coding and GitHub mentoring
+- Helped run Campfire London and Haven London (2026): assisted with safeguarding, coding and GitHub mentoring
+
