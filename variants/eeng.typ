@@ -24,6 +24,7 @@
 - *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, SQL (PostgreSQL), Rust
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
 - *Tools*: Linux, Git, GitHub, Microsoft 365, Wireshark, LLM assistance (Command Code, Amp)
+- *Hardware*: Testing/troubleshooting microcontrollers (ESP32), peripherals, and computer hardware
 
 == Education
 
@@ -35,6 +36,7 @@
   consistent: true,
 )
 - On track for a First Class Honours degree in Computer Science (78.9% first year mark)
+- 89% in Computer Systems and Low-level Programming
 // - Available for a placement year beginning July--September 2027
 
 #edu(
@@ -56,9 +58,9 @@
   dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
 )
 - Managed the support team for Hack Club's flagship online events, scaling infrastructure and the team from a 12,000-participant event to 60,000 participants
-- Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
+// - Maintained our in-house Slack support bot, Nephthys, which became the de facto support solution for Hack Club
 - Brought Slack and email support statistics onto a single dashboard, using Grafana and custom Prometheus scrapers, making the full backlog visible to the team for the first time
-- Motivated volunteers: ran lock-in sessions, distributed stickers, and offered prizes to keep morale high
+// - Motivated volunteers: ran lock-in sessions, distributed stickers, and offered prizes to keep morale high
 
 #work(
   title: "Wellbeing Course Facilitator",
@@ -83,7 +85,7 @@
 // As of 24 Sept 2026, 1,999 flavortown + 3,739 stardance = 5,738 total users → 5,269 unique
 // Piccolo migration: 4125 LoC (8b19b30)
 - Maintained the Slack support bot for Hack Club's largest events, handling 30,000+ support tickets from 5,000 people
-- Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
+// - Supported deployment (with Docker) of 18+ instances for Hack Club's other large events
 - Migrated the project from a discontinued ORM (Prisma Python) to a new one (Piccolo) with _nearly_ zero issues
 - Implemented observability features (Prometheus metrics, log forwarding), which I used to fix Slack API edge-cases
 // - Added observability features, improved configuration validation and handling of API errors
@@ -125,7 +127,15 @@
   url: "go.slevel.xyz/NeoPixel-Thermometer",
 )
 - Designed a temperature display with an AHT20 sensor and NeoPixel LEDs, using EasyEDA
-- Wrote C firmware for the ESP32, which I tested in a simulator
+- Wrote and tested (with a hardware simulator) C firmware for the ESP32
+
+#project(
+  name: "Black Box Block Game",
+  dates: dates-helper(start-date: "Feb 2025", end-date: "Mar 2025"),
+  role: "Developed",
+  url: "github.com/RandomSearch18/black-box-block-game",
+)
+- Falling-block game written in C that runs on a RP2040 and a 5x5 LED matrix
 
 // #project(
 //   name: "Marvellous Mapping Machine",
@@ -160,8 +170,8 @@
   activity: "UK 2026 Cyber Leaders Challenge",
   dates: dates-helper(start-date: "Jan 2026", end-date: "March 2026"),
 )
-- A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
-// - Analysed a simulated national infrastructure cyberattack and briefed government officials on our findings
+// - A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
+- Analysed a simulated national infrastructure cyberattack and briefed government officials on our findings
 - Took part in the National Finals (consisting of the top 17 teams)
 
 #extracurriculars(
@@ -170,4 +180,3 @@
 
 - Participated in Counterspell London (2024), Scrapyard London (2025), Hacktoberfest Hack Day Loughborough (2026)
 - Helped run Campfire London and Haven London (2026): assisted with safeguarding, coding and GitHub mentoring
-
