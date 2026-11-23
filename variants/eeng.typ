@@ -21,7 +21,7 @@
 
 == Skills
 
-- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, SQL (PostgreSQL), Rust
+- *Programming*: Python, JavaScript/TypeScript, REST APIs, HTML/CSS, SQL (PostgreSQL), Rust, C
 - *DevOps*: Docker, self-hosted deployment (Coolify), Prometheus, Grafana, CI/CD
 - *Tools*: Linux, Git, GitHub, Microsoft 365, Wireshark, LLM assistance (Command Code, Amp)
 - *Hardware*: Testing/troubleshooting microcontrollers (ESP32), peripherals, and computer hardware
