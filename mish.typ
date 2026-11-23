@@ -151,8 +151,8 @@
   activity: "UK 2026 Cyber Leaders Challenge",
   dates: dates-helper(start-date: "Jan 2026", end-date: "March 2026"),
 )
-- A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
-// - Analysed a simulated national infrastructure cyberattack and briefed government officials on our findings
+// - A multidisciplinary competition requiring analysing a simulated national infrastructure cyberattack and providing strategic recommendations to government officials
+- Analysed a simulated national infrastructure cyberattack and briefed government officials on our findings
 - Took part in the National Finals (consisting of the top 17 teams)
 
 #extracurriculars(
