@@ -46,7 +46,7 @@
   degree: "A-levels",
   consistent: true,
 )
-- Achieved grades A in Computer Science, A in Physics, and A in mathematics
+- Achieved grades A in Computer Science, A in Physics, and A in Mathematics
 - Computer Science coursework: created a web-based routing engine using WebAssembly, Python and OpenStreetMap
 
 == Experience
